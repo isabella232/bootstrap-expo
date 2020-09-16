@@ -31,3 +31,12 @@ blog:               https://blog.getbootstrap.com
 
 redirect_from:
   json: false
+
+# https://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
